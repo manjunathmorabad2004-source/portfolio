@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Manjunath M Morabad | Python Full Stack Developer</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- jsPDF library for PDF generation -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-container">
+      <div class="logo">
+        <a href="#">Manjunath<span>.dev</span></a>
+      </div>
+      <nav class="navbar">
+        <ul class="nav-menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <a href="#contact" class="btn-small">Hire Me</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <i class="fas fa-code"></i> Python Full Stack Developer
+          </div>
+          <h1>Manjunath M Morabad</h1>
+          <p class="hero-tagline">Building scalable web apps with Django, Flask & React</p>
+          <p class="hero-description">
+            Results-driven developer with hands-on experience in full-stack projects, REST APIs, and agile sprints. 
+            Transitioning from Electronics & Communication Engineering into software development with 8+ technologies mastered.
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn-primary"><i class="fas fa-arrow-down"></i> View Work</a>
+            <a href="./Resume (1).pdf" id="downloadResumeBtn" class="btn-outline"><i class="fas fa-download"></i> Download Resume</a>
+          </div>
+        </div>
+        <div class="hero-avatar">
+          <div class="avatar-circle">
+            <i class="fas fa-user-astronaut"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section (same as before) -->
+    <section id="about" class="about-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>About Me</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>I'm a passionate Python Full Stack Developer with strong foundation in building responsive, data-driven web applications using Django, Flask, React JS, and REST APIs. I thrive in agile environments and enjoy solving real-world problems through clean, scalable code.</p>
+            <p>Currently, I'm pursuing my Bachelor's in Electronics & Communication Engineering while actively upskilling in modern web technologies. My ability to rapidly learn and adapt has helped me master 8+ technologies and deliver production-ready solutions under tight deadlines.</p>
+            <div class="personal-details">
+              <div><i class="fas fa-envelope"></i> manjunathmorabad2004@gmail.com</div>
+              <div><i class="fas fa-phone-alt"></i> +91-6366746269</div>
+              <div><i class="fas fa-map-marker-alt"></i> Gadag, Karnataka</div>
+            </div>
+            <a href="#" id="downloadResumeBtn2" class="btn-primary" style="margin-top: 20px; display: inline-flex;"><i class="fas fa-download"></i> Download CV</a>
+          </div>
+          <div class="experience-highlight">
+            <h3><i class="fas fa-briefcase"></i> Work Experience</h3>
+            <div class="exp-item">
+              <h4>Python Full Stack Developer Intern (Training)</h4>
+              <p class="exp-date">Feb 2025 – Present | Tontadarya College of Engineering, Gadag</p>
+              <ul>
+                <li>Intensive training across 8+ technologies: HTML5, CSS3, JavaScript, Django, MySQL, React JS, NoSQL, GitHub.</li>
+                <li>Built full-stack web projects covering REST APIs, database design, and version control workflows.</li>
+                <li>Applied agile development practices culminating in a campus hiring drive.</li>
+              </ul>
+            </div>
+            <div class="exp-item">
+              <h4>Full Stack Developer (Hackathon)</h4>
+              <p class="exp-date">March 2025 | SkillSprint 2026 Hackathon</p>
+              <ul>
+                <li>Role-based Flask web app with 3 portals (Student, Canteen Staff, Admin) built in 24-hour sprint.</li>
+                <li>Session authentication, SQLite integration, real-time Chart.js analytics dashboard.</li>
+                <li>Coordinated 5-member cross-functional team under deadline pressure.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Technical Skills</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3><i class="fas fa-code"></i> Frontend</h3>
+            <div class="skill-tags">
+              <span><i class="fab fa-html5"></i> HTML5/CSS3</span>
+              <span><i class="fab fa-js"></i> JavaScript (ES6+)</span>
+              <span><i class="fab fa-react"></i> React JS</span>
+              <span><i class="fab fa-bootstrap"></i> Bootstrap</span>
+              <span><i class="fas fa-mobile-alt"></i> Responsive Design</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3><i class="fas fa-server"></i> Backend</h3>
+            <div class="skill-tags">
+              <span><i class="fab fa-python"></i> Python</span>
+              <span><i class="fas fa-django"></i> Django</span>
+              <span><i class="fas fa-flask"></i> Flask</span>
+              <span><i class="fas fa-plug"></i> REST APIs</span>
+              <span><i class="fas fa-layer-group"></i> MVC Architecture</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3><i class="fas fa-database"></i> Databases</h3>
+            <div class="skill-tags">
+              <span><i class="fas fa-database"></i> MySQL</span>
+              <span><i class="fas fa-database"></i> SQLite</span>
+              <span><i class="fas fa-leaf"></i> MongoDB (Basics)</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3><i class="fas fa-tools"></i> Tools & Concepts</h3>
+            <div class="skill-tags">
+              <span><i class="fab fa-git-alt"></i> Git/GitHub</span>
+              <span><i class="fas fa-code"></i> VS Code</span>
+              <span><i class="fas fa-paper-plane"></i> Postman</span>
+              <span><i class="fas fa-chart-line"></i> Agile Basics</span>
+              <span><i class="fas fa-cube"></i> OOP</span>
+              <span><i class="fab fa-node-js"></i> Node.js (conceptual)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications & Achievements -->
+    <section class="cert-achievements">
+      <div class="container">
+        <div class="two-col-grid">
+          <div class="card cert-card">
+            <h3><i class="fas fa-certificate"></i> Certifications</h3>
+            <ul>
+              <li><i class="fas fa-check-circle"></i> Python Programming Certification — PrepInsta</li>
+              <li><i class="fas fa-check-circle"></i> Full Stack Intensive Training (Django, React, MySQL, NoSQL, GitHub)</li>
+            </ul>
+          </div>
+          <div class="card achievement-card">
+            <h3><i class="fas fa-trophy"></i> Achievements</h3>
+            <ul>
+              <li><i class="fas fa-medal"></i> SkillSprint 2026 Hackathon: Built “AnnaRaksha” multi-role app in 24h as team lead.</li>
+              <li><i class="fas fa-star"></i> Scored 91.66% in Class 12 and 91.04% in Class 10 – consistent academic excellence.</li>
+              <li><i class="fas fa-laptop-code"></i> Completed Python Full Stack training covering 8+ technologies while pursuing ECE.</li>
+              <li><i class="fas fa-chart-line"></i> Developed scalable Flask app with real-time data viz & gamification.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Featured Projects</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-header">
+              <h3>AnnaRaksha — Smart Food Wastage Management</h3>
+              <div class="project-links">
+                <a href="#" target="_blank"><i class="fab fa-github"></i> Code</a>
+                <a href="#" target="_blank">Live Demo</a>
+              </div>
+            </div>
+            <div class="tech-stack">
+              <span><i class="fab fa-python"></i> Python</span>
+              <span><i class="fas fa-flask"></i> Flask</span>
+              <span><i class="fas fa-database"></i> SQLite</span>
+              <span><i class="fas fa-chart-line"></i> Chart.js</span>
+              <span><i class="fab fa-html5"></i> HTML/CSS/JS</span>
+            </div>
+            <p>Scalable role-based web application with portals for students, canteen staff, and admins using Flask & MVC. Integrated session authentication, real-time analytics dashboard for wastage reporting, and <strong>eco-points gamification</strong> to incentivize sustainable habits. Fully functional prototype delivered in 24-hour sprint.</p>
+          </div>
+          <div class="project-card">
+            <div class="project-header">
+              <h3>Interactive Quiz Application</h3>
+              <div class="project-links">
+                <a href="#" target="_blank"><i class="fab fa-github"></i> Source</a>
+              </div>
+            </div>
+            <div class="tech-stack">
+              <span><i class="fab fa-html5"></i> HTML5</span>
+              <span><i class="fab fa-css3-alt"></i> CSS3</span>
+              <span><i class="fab fa-js"></i> Vanilla JavaScript</span>
+            </div>
+            <p>Browser-based quiz app with dynamic question rendering, real-time score tracking, instant answer feedback, countdown timer, and result summary screen. Built with pure JavaScript without external frameworks, focusing on accessible UI and mobile responsiveness.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Get In Touch</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="contact-wrapper">
+          <div class="contact-info">
+            <h3>Let's connect!</h3>
+            <p>I'm actively looking for full-stack developer opportunities. Feel free to reach out for collaborations or just a chat.</p>
+            <ul class="contact-details">
+              <li><i class="fas fa-envelope"></i> manjunathmorabad2004@gmail.com</li>
+              <li><i class="fas fa-phone-alt"></i> +91-6366746269</li>
+              <li><i class="fas fa-map-marker-alt"></i> Gadag, Karnataka, India</li>
+            </ul>
+            <div class="social-links">
+              <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+          <form class="contact-form" action="#" method="post">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea rows="4" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn-primary">Send Message <i class="fas fa-paper-plane"></i></button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-col">
+          <h3>Manjunath<span>.dev</span></h3>
+          <p>Python Full Stack Developer crafting robust web solutions.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Connect</h4>
+          <div class="footer-social">
+            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+          </div>
+          <p><i class="fas fa-envelope"></i> manjunathmorabad2004@gmail.com</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Manjunath M Morabad. All rights reserved. | Built with HTML & CSS</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
